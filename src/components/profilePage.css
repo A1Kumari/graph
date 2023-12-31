@@ -1,0 +1,53 @@
+/* ProfilePage.css */
+/* Container Styles */
+
+
+  
+  /* Avatar Styles */
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  /* User Info Styles */
+  .user-info {
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  /* Right Component Section Heading Styles */
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Label Styles */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #3da4e4; /* Adjust button color as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Styles */
+  button:hover {
+    background-color: #2c5282; /* Adjust hover color as needed */
+  }
+  
+  /* Additional Styles specific to ProfilePage */
+  /* Add your specific styles for additional content here */
+  
