@@ -1,0 +1,282 @@
+.min-h-screen{
+  height: 100vh;
+}
+.text-center{
+  width: 70%;
+}
+/* homepage.css */
+
+
+/* Navbar Container Styles */
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Logo Styles */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navbar Links Container Styles */
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Link Styles */
+.navbar-link {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Navbar Link Hover Styles */
+.navbar-link:hover {
+  color: #a0aec0; /* Adjust the hover color as needed */
+}
+
+/* Navbar Button Styles */
+.navbar-button {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #3da4e4, #42b2db, #45b9d5, #4bc8cb);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Navbar Button Hover Styles */
+.navbar-button:hover {
+  background: #2c5282; /* Adjust the hover background color as needed */
+}
+
+/* homepage.css */
+
+/* Background Gradient Styles */
+.bg-gradient-to-r {
+  background-image: url('../assests/image/img1.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.from-blue-500 {
+  background-color: #000;
+}
+
+.via-blue-400 {
+  background-color: #000;
+}
+
+.to-blue-300 {
+  background-color: #000;
+}
+
+/* Text Color Styles */
+.text-white {
+  color: white;
+}
+
+/* Hello World Styles */
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 3.2rem; /* 36px */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.bg-gradient-text {
+  background: linear-gradient(to right, #3da4e4, #42b2db, #45b9d5, #4bc8cb);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  margin-bottom: 1.5rem;
+}
+
+/* Button Styles */
+.gradient-button {
+  background: linear-gradient(to right, #3da4e4, #42b2db, #45b9d5, #4bc8cb);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Flex Container Styles */
+.flex {
+  display: flex;
+}
+
+/* Justify Styles */
+.justify-center {
+  justify-content: center;
+}
+
+/* Spacing Styles */
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+/* Margin Styles */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+/* Pricing Box Styles */
+.pricing-box {
+  background-color: #ffffff;
+  color: #333333;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Gradient Button Styles */
+.gradient-button {
+  background: linear-gradient(to right, #3da4e4, #42b2db, #45b9d5, #4bc8cb);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Background Gradient Styles */
+
+/* Text Color Styles */
+.text-white {
+  color: white;
+}
+
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Flex Container Styles */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+/* Justify and Align Styles */
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+/* Margin Styles */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Padding Styles */
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+/* Border Radius Styles */
+.rounded {
+  border-radius: 0.25rem;
+}
+
+
+/*pricing*/
+/* Add this CSS to your existing styles or create a new CSS file */
+
+.selected-plan-details {
+  background-color: #f0f5ff; /* Adjust the background color as needed */
+  border: 2px solid #4c63b6; /* Adjust the border color as needed */
+  border-radius: 8px;
+  padding: 16px;
+  height: 300px;
+  width: 57%;
+  margin: 40px;
+}
+
+.selected-plan-details h2 {
+  color: #1a202c; /* Adjust the text color as needed */
+}
+
+.selected-plan-details p {
+  margin-bottom: 8px;
+  color: #2d3748; /* Adjust the text color as needed */
+}
+
+/* Animation for highlighting */
+@keyframes highlight {
+  0% {
+    background-color: #f0f5ff;
+  }
+  50% {
+    background-color: #dbe4ff;
+  }
+  100% {
+    background-color: #f0f5ff;
+  }
+}
+
+/* Apply the animation to the selected plan details card */
+.selected-plan-details:hover {
+  animation: highlight 1s infinite;
+}
+
